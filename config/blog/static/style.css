@@ -1,0 +1,64 @@
+/* style.css */
+
+/* 로고 이미지 스타일 */
+.logo {
+    margin-bottom: 50px;
+  }
+  
+  /* 메인 제목 스타일 */
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* 새 글 작성하기 버튼 스타일 */
+  .new-post__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .new-post__button:hover {
+    background-color: purple;
+  }
+  
+  /* 각 블로그 포스트 스타일 */
+  .new-post__button h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .new-post__button p {
+    color: #666;
+  }
+  
+  /* 페이지 번호 스타일 */
+  .pagination-links {
+    margin-top: 20px;
+  }
+  
+  .pagination-links a {
+    margin-right: 10px;
+    color: purple;
+    text-decoration: none;
+  }
+  
+  .pagination-links a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    color: white;
+}
+
+body {
+  background-color: black;
+}
+
+h1{
+  color: white;
+}
